@@ -1,6 +1,14 @@
-# breast-cancer-subtype-classification-ml
-A machine learning and bioinformatics project for classifying breast cancer molecular subtypes using gene expression data from the GSE45827 dataset. The project compares multiple machine learning models, performs feature selection, cross-validation, gene annotation, and functional enrichment analysis using GO and KEGG pathways.
 # Breast Cancer Molecular Subtype Classification using Machine Learning
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange)
+
+![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Gene%20Expression-green)
+
+![License](https://img.shields.io/badge/License-MIT-success)
+
+A machine learning and bioinformatics project for classifying breast cancer molecular subtypes using gene expression data from the GSE45827 dataset. The project compares multiple machine learning models, performs feature selection, cross-validation, gene annotation, and functional enrichment analysis using GO and KEGG pathways.
 
 ## Overview
 
@@ -11,6 +19,17 @@ This project applies machine learning techniques to classify breast cancer molec
 This project was developed as part of my undergraduate research work in Bioinformatics and Machine Learning.
 
 ---
+
+## Project Highlights
+
+- Gene expression-based breast cancer subtype classification
+- Comparison of four supervised machine learning models
+- ANOVA F-test for feature selection
+- PCA for dimensionality reduction and visualization
+- 10-fold stratified cross-validation
+- Gene annotation using GPL570 platform
+- Functional enrichment analysis using GO and KEGG
+- End-to-end machine learning and bioinformatics workflow
 
 ## Dataset
 
@@ -62,6 +81,8 @@ The following supervised machine learning algorithms were evaluated:
 
 ## Results
 
+The performance of four supervised machine learning models was compared using both an independent test set and 10-fold stratified cross-validation.
+
 | Model | Test Accuracy |
 |--------|--------------|
 | Logistic Regression | 100% |
@@ -69,9 +90,29 @@ The following supervised machine learning algorithms were evaluated:
 | Random Forest | 96.55% |
 | XGBoost | 96.55% |
 
-Cross-validation showed that the Support Vector Machine achieved the most consistent performance across different folds.
+Among all models, the Support Vector Machine achieved the most consistent performance during cross-validation, indicating better generalization across different data splits.
 
----
+## Project Figures
+
+### PCA Visualization
+
+![PCA](figures/pca_plot.png)
+
+### ROC Curve
+
+![ROC](figures/roc_curve.png)
+
+### Heatmap
+
+![Heatmap](figures/heatmap.png)
+
+### GO Enrichment Analysis
+
+![GO](figures/go_barplot.png)
+
+### KEGG Pathway Analysis
+
+![KEGG](figures/kegg_barplot.png)
 
 ## Functional Enrichment
 
@@ -156,4 +197,22 @@ This project is intended for educational and research purposes.
 ---
 ## License
 
-This project is intended for educational and research purposes. 
+This project is licensed under the MIT License. See the LICENSE file for more details.s project is intended for educational and research purposes. 
+
+## Citation
+
+If you use this project or its code in your research or academic work, please cite the associated research paper or acknowledge this repository.
+
+Author: **Iqra Shaikh**
+
+Project: *Breast Cancer Molecular Subtype Classification using Machine Learning and Functional Enrichment Analysis*
+
+
+
+
+
+
+
+
+
+
