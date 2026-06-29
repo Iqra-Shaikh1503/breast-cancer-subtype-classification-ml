@@ -1,0 +1,5 @@
+Model,Test Accuracy,Cross Validation Mean,CV Standard Deviation
+Logistic Regression,1.0,0.9462,0.0186
+Support Vector Machine,1.0,0.9644,0.0178
+Random Forest,0.9655,0.9462,0.0447
+XGBoost,0.9655,0.9012,0.0522
